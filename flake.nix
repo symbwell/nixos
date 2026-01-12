@@ -26,8 +26,8 @@
       specialArgs = { inherit inputs; };
       modules = [
         disko.nixosModules.disko
-        ./hosts/laptop/disko.nix
-        ./hosts/laptop/configuration.nix
+        ./hosts/lenovo-legion/disko.nix
+        ./hosts/lenovo-legion/configuration.nix
         ./modules/desktop.nix
         home-manager.nixosModules.home-manager
         {
